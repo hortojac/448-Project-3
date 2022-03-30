@@ -1,10 +1,10 @@
 Requirement Engineering Artifact
 
-Agile Story Points
-
 Estimatation of Person-Hours 
 
 Accounted Person-Hours 
+
+Agile Story Points
 
 Design Paradigm
 
