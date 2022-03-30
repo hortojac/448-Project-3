@@ -4,12 +4,12 @@ Estimatation of Person-Hours
 
 Accounted Person-Hours 
 
-Agile Story Points
+Agile Story Points (Luca)
 
-Design Paradigm
+Design Paradigm (Tram-Anh)
 
-Software Architecture
+Software Architecture (Jacob)
 
-UML Modeling Diagram
+UML Modeling Diagram (Bikash)
 
-Project Design Pattern 
+Project Design Pattern (Julia)
