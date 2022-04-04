@@ -22,7 +22,7 @@ Project Design Pattern (Julia)
 <ol>
     <li>BlackJack</li>
     <li>Connect 4</li>
-    <li>Tic-Tac-Toe/li>
+    <li>Tic-Tac-Toe</li>
     <li>Wordle</li>
     <li>Rock Paper Scissors Lizard Spock</li>
 </ol>
