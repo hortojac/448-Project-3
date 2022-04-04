@@ -35,12 +35,9 @@ Project Design Pattern (Julia)
     <p>Two player game where each player has a set of colored tokens that they will take turns placing on a 6 by 7 playing board. Tokens are placed one by one in any available column and will drop down to the lowest available row. Play continues until a player gets four of their tokens in a row or a stalemate occurs. Four in a row vertical, horizontal, or diagonal are all valid ways to win.<p>
 <img src="connect4.png" width="300" height="300"/>
 
-<h2>Tic-Tac-Toe</h2>
+<h2>Tic-Tac-Toe
 
-<h2>Wordle</h2>
-<p>A one player game where the player has six tries to guess a certain 5-letter word. All the hints they have are given by other guesses, according to these rules:</p>
-<img src = "https://i.inews.co.uk/content/uploads/2022/01/PRI_217279117.jpg" height = 300px />
-
+<h2>Wordle
 
 <h2>Rock Paper Scissors Lizard Spock
     <p>A spin on the classic "rock paper scissors", "Rock Paper Scissors Lizard Spock" is a more complex twist on the game adapted from the TV show "The Big Bang Theory". The Rules for what wins against what is nicely illustrated with the following image:<p>
