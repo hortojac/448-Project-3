@@ -43,9 +43,9 @@ Project Design Pattern (Julia)
 
 | 1 | 2 | 3 | 5 | 8 | 13 | 
 | :-- | :-- | :-- | :-- | :-- | :-- | 
-|Importing Project|Creating minigame classes ||||UML Diagram for Project 3|
-|Dividing tasks|Basic code for minigames|||||
-|Determining projected hours|Linking minigames to menu screen||||
+|Importing Project|Creating minigame classes ||RPSLS prototype|Connect 4 prototype|UML Diagram for Project 3|
+|Dividing tasks|Barebones code for minigames||Tic-Tac-Toe prototype|Wordle prototype|Design Paradigm|
+|Determining projected hours|Linking minigames to menu screen||BlackJack prototype|Software Architecture|Project Design Pattern|
 
 #### Reasoning for estimation:
 - We set each story point to have a time value of 20 minutes
