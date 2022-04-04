@@ -100,9 +100,13 @@ def setup_frame3():
     btn_column7_2.configure(state=NORMAL)
     show_frame(frame3)
 
-label_frame1 = Label(frame1, text="Press start to begin").grid()  
-btn_frame1 = Button(frame1, text = 'Start', command=partial(show_frame,frame2), padx=20,pady=20).grid()
-button_quit_game = Button(frame1, text="Press to Quit", command=root.destroy).grid() #press to quit button, closes program
+
+label_frame1 = Label(frame1, text="Connect 4!\nPress start to begin playing.",font=("Arial", 25)) 
+label_frame1.place(relx=.5, rely=.1,anchor= CENTER)
+btn_frame1 = Button(frame1, text="Start", font=("Arial",50, BOLD), command=partial(show_frame,frame2), padx=20,pady=20, compound=CENTER) #Big button to start the game
+btn_frame1.place(relx=.5, rely=.5, anchor=CENTER)
+button_quit_game = Button(frame1, text="Quit",font=("Arial",30, BOLD), command=partial(root.destroy)) #exits the program
+button_quit_game.place(relx=.5, rely=.9, anchor=CENTER)
 
 label_frame2 = Label(frame2, text="Player 1 place your piece").grid(row=0, column=0)
 btn_frame2 = Button(frame2, text = 'Next', command=partial(setup_frame3), state=DISABLED, padx=5,pady=5)
