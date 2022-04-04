@@ -28,6 +28,7 @@ Project Design Pattern (Julia)
 </ol>
 
 <h2>BlackJack</h2>
+    <p>Blackjack is a casino banking game that uses a 52 card deck with the objective of the game for the player or dealer to be dealt a hand with a value of no more than 21. Highest hand wins the round. Rules on how to play are below:</p>
 <img src="blackjack_rules.png" width="400" height="600"/>
 
 <h2>Connect 4
