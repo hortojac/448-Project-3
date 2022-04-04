@@ -37,7 +37,7 @@ Project Design Pattern (Julia)
 
 <h2>Rock Paper Scissors Lizard Spock
     <p>A spin on the classic "rock paper scissors", "Rock Paper Scissors Lizard Spock" is a more complex twist on the game adapted from the TV show "The Big Bang Theory". The Rules for what wins against what is nicely illustrated with the following image:<p>
-(Rules for Rock Paper Scissors Lizard Spock)
+![Rules for Rock Paper Scissors Lizard Spock](RPSLS_rule.png)
 
 
 
