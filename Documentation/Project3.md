@@ -43,6 +43,6 @@ Project Design Pattern (Julia)
 
 | 1 | 2 | 3 | 5 | 8 | 13 | 
 | :-- | :-- | :-- | :-- | :-- | :-- | 
-|Importing Project|Creating minigame classes |Sounds|Debugging||UML Diagram for Project 3|
+|Importing Project|Creating minigame classes |Sounds|||UML Diagram for Project 3|
 |Dividing tasks|Basic code for minigames|||||
 |Determining projected hours|Linking minigames to menu screen||||
