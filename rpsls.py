@@ -17,8 +17,7 @@ def set_playerChoice(choice): #sets player's choice as the passed-in string
     global choice_player
     choice_player = choice
 
-    #prep frame 3
-
+    #prep for frame 3
     frame3_txt1 = Label(frame3, text="You picked...\n" + choice_player,font=("Arial", 25))
     frame3_txt1.place(relx=.5, rely=.1,anchor= CENTER)
 
@@ -27,7 +26,8 @@ def set_playerChoice(choice): #sets player's choice as the passed-in string
 
     frame3_txt3 = Label(frame3, text= result,font=("Arial", 40))
     frame3_txt3.place(relx=.5, rely=.5,anchor= CENTER)
-    show_frame(frame3)
+
+    show_frame(frame3)# now skip to frame 3
 
 root = Tk()
 root.state('zoomed') #puts the window mode in zoomed
@@ -54,11 +54,11 @@ for frame in (frame1, frame2, frame3):
 show_frame(frame1)
 
 #frame1 code
-frame1_welcomeTxt = Label(frame1, text="Rock Paper Scissors Lizard Spock!\nPress start to begin playing.",font=("Arial", 25))
+frame1_welcomeTxt = Label(frame1, text="Rock Paper Scissors Lizard Spock!\nPress start to begin playing.",font=("Arial", 25)) #welcome text 
 frame1_welcomeTxt.place(relx=.5, rely=.1,anchor= CENTER)
 
 
-frame1_startBtn = Button(frame1, text="Start",fg="white", font=("Arial",50, BOLD), command=partial(show_frame,frame2), bg="white", padx=20,pady=20, image=img_start, compound=CENTER)
+frame1_startBtn = Button(frame1, text="Start",fg="white", font=("Arial",50, BOLD), command=partial(show_frame,frame2), bg="white", padx=20,pady=20, image=img_start, compound=CENTER) #Big button to start the game
 frame1_startBtn.place(relx=.5, rely=.5, anchor=CENTER)
 
 #frame1 quit button
@@ -70,19 +70,19 @@ frame1_exitBtn.place(relx=.5, rely=.9, anchor=CENTER)
 frame2_txt = Label(frame2, text="What will you throw?",font=("Arial", 25))
 frame2_txt.grid(rowspan=2, columnspan=4) #place(relx=.5, rely=.2, anchor=CENTER)
 
-frame2_rockBtn = Button(frame2, text="ROCK",font=("Arial",40, BOLD), command=partial(set_playerChoice, "Rock")) #exits the program
+frame2_rockBtn = Button(frame2, text="ROCK",font=("Arial",40, BOLD), command=partial(set_playerChoice, "Rock")) #player chooses rock
 frame2_rockBtn.place(relx=.5, rely=.2, anchor=CENTER)
 
-frame2_paperBtn = Button(frame2, text="PAPER",font=("Arial",40, BOLD), command=partial(set_playerChoice, "Paper")) #exits the program
+frame2_paperBtn = Button(frame2, text="PAPER",font=("Arial",40, BOLD), command=partial(set_playerChoice, "Paper")) #player chooses paper
 frame2_paperBtn.place(relx=.5, rely=.3, anchor=CENTER)
 
-frame2_scissorsBtn = Button(frame2, text="SCISSORS",font=("Arial",40, BOLD), command=partial(set_playerChoice, "Scissors")) #exits the program
+frame2_scissorsBtn = Button(frame2, text="SCISSORS",font=("Arial",40, BOLD), command=partial(set_playerChoice, "Scissors")) #player chooses scissors
 frame2_scissorsBtn.place(relx=.5, rely=.4, anchor=CENTER)
 
-frame2_lizardBtn = Button(frame2, text="LIZARD",font=("Arial",40, BOLD), command=partial(set_playerChoice, "Lizard")) #exits the program
+frame2_lizardBtn = Button(frame2, text="LIZARD",font=("Arial",40, BOLD), command=partial(set_playerChoice, "Lizard")) #player chooses lizard
 frame2_lizardBtn.place(relx=.5, rely=.5, anchor=CENTER)
 
-frame2_spockBtn = Button(frame2, text="SPOCK",font=("Arial",40, BOLD), command=partial(set_playerChoice, "Spock")) #exits the program
+frame2_spockBtn = Button(frame2, text="SPOCK",font=("Arial",40, BOLD), command=partial(set_playerChoice, "Spock")) #player chooses spock
 frame2_spockBtn.place(relx=.5, rely=.6, anchor=CENTER)
 
 #frame2 quit button
@@ -94,11 +94,11 @@ frame2_exitBtn.place(relx=.5, rely=.9, anchor=CENTER)
 
 
 #frame3 play again button
-frame2_replayBtn = Button(frame3, text="Play Again",font=("Arial",30, BOLD), command=partial(show_frame, frame1)) #exits the program
+frame2_replayBtn = Button(frame3, text="Play Again",font=("Arial",30, BOLD), command=partial(show_frame, frame1)) #replays the game for the player
 frame2_replayBtn.place(relx=.5, rely=.8, anchor=CENTER)
 
 #frame3 quit button
-frame2_exitBtn = Button(frame3, text="Quit",font=("Arial",30, BOLD), command=partial(root.destroy)) #exits the program
+frame2_exitBtn = Button(frame3, text="Quit",font=("Arial",30, BOLD), command=partial(root.destroy)) #exits the game, thus goes back to the game suite menu
 frame2_exitBtn.place(relx=.5, rely=.9, anchor=CENTER)
 
-root.mainloop()
+root.mainloop() #keeps game running, part of basic Tkinter structure
