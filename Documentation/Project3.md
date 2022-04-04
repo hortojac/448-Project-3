@@ -3,7 +3,7 @@
 
 Requirement Engineering Artifact
 
-Estimatation of Person-Hours (within time log)
+Estimation of Person-Hours (within time log)
 
 Accounted Person-Hours (within time log)
 
@@ -39,4 +39,10 @@ Project Design Pattern (Julia)
     <p>A spin on the classic "rock paper scissors", "Rock Paper Scissors Lizard Spock" is a more complex twist on the game adapted from the TV show "The Big Bang Theory". The Rules for what wins against what is nicely illustrated with the following image:<p>
 <img src="RPSLS_rules.png" alt="Rules for Rock Paper Scissors Lizard Spock" width="500"/>
 
+### Story Point Estimation
 
+| 1 | 2 | 3 | 5 | 8 | 13 | 
+| :-- | :-- | :-- | :-- | :-- | :-- | 
+|Importing Project|Creating minigame classes |Sounds|Debugging||UML Diagram for Project 3|
+|Dividing tasks|Basic code for minigames|||||
+|Determining projected hours|Linking minigames to menu screen||||
