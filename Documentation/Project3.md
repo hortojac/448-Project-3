@@ -33,7 +33,7 @@ Project Design Pattern (Julia)
 
 <h2>Connect 4
     <p>Two player game where each player has a set of colored tokens that they will take turns placing on a 6 by 7 playing board. Tokens are placed one by one in any available column and will drop down to the lowest available row. Play continues until a player gets four of their tokens in a row or a stalemate occurs. Four in a row vertical, horizontal, or diagonal are all valid ways to win.<p>
-<img src="connect4.png" width="400" height="600"/>
+<img src="connect4.png" width="600" height="600"/>
 
 <h2>Tic-Tac-Toe
 
