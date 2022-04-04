@@ -8,12 +8,12 @@ import sys
 def show_frame(frame):
     frame.tkraise()
 
-def runRPSLS():
-    os.system('python3 rpsls.py')
-
 root = Tk()
 root.state('zoomed') #puts the window mode in zoomed
 root.title("Rock Paper Scissors Lizard Spock") #labels our frame
+
+root.rowconfigure(0, weight=1) #configures rows to a weight of 1
+root.columnconfigure(0, weight=1) #configures columns to weight of 1
 
 frame1 = Frame(root)
 
