@@ -46,3 +46,8 @@ Project Design Pattern (Julia)
 |Importing Project|Creating minigame classes |Sounds|||UML Diagram for Project 3|
 |Dividing tasks|Basic code for minigames|||||
 |Determining projected hours|Linking minigames to menu screen||||
+
+#### Reasoning for estimation:
+- We set each story point to have a time value of 20 minutes
+- Since project 3 is just prototyping, we knew that the overall hours necessary to complete would be significantly lower, and that the heavy lifting would come into play during Project 4, where we will be fully implementing and polishing our games
+- Overall, the documentation for Project 3 actually should take longer than the code, since we want to be very specific on the specifications for our finished Project before development goes into full swing (i.e. when Project 4 begins)
