@@ -27,7 +27,7 @@ Project Design Pattern (Julia)
     <li>Rock Paper Scissors Lizard Spock</li>
 </ol>
 
-<h2>BlackJack
+<h2>BlackJack</h2>
 <img src="blackjack_rules.png"/>
 
 <h2>Connect 4
