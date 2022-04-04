@@ -3,9 +3,9 @@
 
 Requirement Engineering Artifact
 
-Estimatation of Person-Hours 
+Estimatation of Person-Hours (within time log)
 
-Accounted Person-Hours 
+Accounted Person-Hours (within time log)
 
 Agile Story Points (Luca)
 
