@@ -28,7 +28,7 @@ Project Design Pattern (Julia)
 </ol>
 
 <h2>BlackJack</h2>
-<img src="blackjack_rules.png"/>
+<img src="blackjack_rules.png" width="400" height="600"/>
 
 <h2>Connect 4
 
