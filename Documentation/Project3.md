@@ -39,9 +39,9 @@ A spin on the classic "rock paper scissors", "Rock Paper Scissors Lizard Spock" 
 
 | 1 | 2 | 3 | 5 | 8 | 13 | 
 | :-- | :-- | :-- | :-- | :-- | :-- | 
-|Importing Project|Creating minigame classes ||RPSLS prototype|Connect 4 prototype|UML Diagram for Project 3|
-|Dividing tasks|Barebones code for minigames||Tic-Tac-Toe prototype|Wordle prototype|Design Paradigm|
-|Determining projected hours|Linking minigames to menu screen||BlackJack prototype|Software Architecture|Project Design Pattern|
+|Importing Project|Creating minigame classes |Maintaining consistent Python + Tkinter versions|RPSLS prototype|Connect 4 prototype|UML Diagram for Project 3|
+|Dividing tasks|Barebones code for minigames|Merging code|Tic-Tac-Toe prototype|Wordle prototype|Design Paradigm|
+|Determining projected hours|Linking minigames to menu screen|creating game ideas + functionality|BlackJack prototype|Software Architecture|Project Design Pattern|
 
 #### Reasoning for estimation:
 - We set each story point to have a time value of 20 minutes
