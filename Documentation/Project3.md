@@ -1,5 +1,5 @@
 <h5>Time log: https://docs.google.com/spreadsheets/d/1lUsOUC2fbRDljCjvxWwighowklgWpwoVV_gzfDf-2TM/edit?usp=sharing
-<h5>Extra-writing document: https://docs.google.com/document/d/1aOwuMlhKVfmguq9ks0G5TxOorpi90ihLn462vxu7_vE/edit?usp=sharing
+<h5>Additional requirements Document: https://docs.google.com/document/d/1aOwuMlhKVfmguq9ks0G5TxOorpi90ihLn462vxu7_vE/edit?usp=sharing
 
 Requirement Engineering Artifact
 
@@ -16,3 +16,28 @@ Software Architecture (Jacob)
 UML Modeling Diagram (Bikash)
 
 Project Design Pattern (Julia)
+
+<h1> Our Project: Game Suite </h2>
+<p>- We are developing a game suite, stocked with 5 fun and exciting games to play:</P>
+<ol>
+    <li>BlackJack</li>
+    <li>Connect 4</li>
+    <li>Tic-Tac-Toe/li>
+    <li>Wordle</li>
+    <li>Rock Paper Scissors Lizard Spock</li>
+</ol>
+
+<h2>BlackJack
+
+<h2>Connect 4
+
+<h2>Tic-Tac-Toe
+
+<h2>Wordle
+
+<h2>Rock Paper Scissors Lizard Spock
+    <p>A spin on the classic "rock paper scissors", "Rock Paper Scissors Lizard Spock" is a more complex twist on the game adapted from the TV show "The Big Bang Theory". The Rules for what wins against what is nicely illustrated with the following image:<p>
+(Rules for Rock Paper Scissors Lizard Spock)
+
+
+
